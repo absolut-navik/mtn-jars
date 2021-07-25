@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-autoconfigure",
+    "version": "2.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "ib3d2pkqrbcqvgrer5hgwodf34"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.6.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "url": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "size": 1571940,
+          "sha512": "7a933a669fcea26c0d29f5a840db31b2ca6699bf48e32bce07545a0c4140a7fe2a331d63520601057391af82be49bbaf162db38d73d64a0cfd7ebbdba26a91ed",
+          "sha256": "8a12c080ef21dad823239d8b1e77a1a305456a22b5fb36cd152e0d02a0e5c52d",
+          "sha1": "e09030365ade0ab79b2cb4b01666ceb2d59ee6c8",
+          "md5": "63cd3ce42c0e4477f8beed067973b6b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.6.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "url": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "size": 1571940,
+          "sha512": "7a933a669fcea26c0d29f5a840db31b2ca6699bf48e32bce07545a0c4140a7fe2a331d63520601057391af82be49bbaf162db38d73d64a0cfd7ebbdba26a91ed",
+          "sha256": "8a12c080ef21dad823239d8b1e77a1a305456a22b5fb36cd152e0d02a0e5c52d",
+          "sha1": "e09030365ade0ab79b2cb4b01666ceb2d59ee6c8",
+          "md5": "63cd3ce42c0e4477f8beed067973b6b7"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "url": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "size": 1571940,
+          "sha512": "7a933a669fcea26c0d29f5a840db31b2ca6699bf48e32bce07545a0c4140a7fe2a331d63520601057391af82be49bbaf162db38d73d64a0cfd7ebbdba26a91ed",
+          "sha256": "8a12c080ef21dad823239d8b1e77a1a305456a22b5fb36cd152e0d02a0e5c52d",
+          "sha1": "e09030365ade0ab79b2cb4b01666ceb2d59ee6c8",
+          "md5": "63cd3ce42c0e4477f8beed067973b6b7"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-autoconfigure-maven-optional",
+          "version": "2.6.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "url": "spring-boot-autoconfigure-2.6.0-SNAPSHOT.jar",
+          "size": 1571940,
+          "sha512": "7a933a669fcea26c0d29f5a840db31b2ca6699bf48e32bce07545a0c4140a7fe2a331d63520601057391af82be49bbaf162db38d73d64a0cfd7ebbdba26a91ed",
+          "sha256": "8a12c080ef21dad823239d8b1e77a1a305456a22b5fb36cd152e0d02a0e5c52d",
+          "sha1": "e09030365ade0ab79b2cb4b01666ceb2d59ee6c8",
+          "md5": "63cd3ce42c0e4477f8beed067973b6b7"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-autoconfigure-maven-optional",
+          "version": "2.6.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-autoconfigure-2.6.0-SNAPSHOT-javadoc.jar",
+          "url": "spring-boot-autoconfigure-2.6.0-SNAPSHOT-javadoc.jar",
+          "size": 2393516,
+          "sha512": "806ea9141fe2ef6b254df383b83d2746d8f2ea3ea2cfc68e8300333b94f00cbfdd8c7e0a1277fc54df2bd5c81079b267a96d2da13312fe7a3a7f35b472728398",
+          "sha256": "171e4a434524a60d37ff04bd93e4b9183b7b1eef7045f477669ea0262ed24939",
+          "sha1": "d579fc3aafcb89aecc713653cedbb508cb9bb1c1",
+          "md5": "7e51605516b5419b6dc8fe1dd7cb7c0b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-autoconfigure-2.6.0-SNAPSHOT-sources.jar",
+          "url": "spring-boot-autoconfigure-2.6.0-SNAPSHOT-sources.jar",
+          "size": 946813,
+          "sha512": "33f5f783505aa4b9d114cb9c925bdc4f9c11606c4c2f501f03fe0e685cf799ce404942473a7fc2af3e7601382a2b3c5677633f4309147445e25d044be2332a97",
+          "sha256": "9a0898035b0e65d566073a3e059a3c035a1eb6c6317d1b225939ee2297cc8d4c",
+          "sha1": "321fcc585c1d73af3cf024bbb23136c90df9f101",
+          "md5": "7c802a5708594a7a504bc3bd05c2ab7e"
+        }
+      ]
+    }
+  ]
+}

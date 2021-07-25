@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-web",
+    "version": "5.3.9-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "saqtyhakmnfmdpzp4gyqeqfomy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.9-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.9-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.9-SNAPSHOT.jar",
+          "url": "spring-web-5.3.9-SNAPSHOT.jar",
+          "size": 1598996,
+          "sha512": "2c43f0c81ba4c2ee0591e70c3b7b6bca3f0bccd3f99ea6fa1316db7406715c220b88ddfdbc7abc7c20f66ae4b608151757aed0359e467cb17d277b4b619109a9",
+          "sha256": "eec1af00afe0f739b0f55bdfd7135ad983108ad9b80c699be2f44cb86f56ad43",
+          "sha1": "981c6f4c17221cc93ace49f18b6f20ae7e8663cd",
+          "md5": "441eb0a7849f3397783cefa49e7cf216"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.9-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.9-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.9-SNAPSHOT.jar",
+          "url": "spring-web-5.3.9-SNAPSHOT.jar",
+          "size": 1598996,
+          "sha512": "2c43f0c81ba4c2ee0591e70c3b7b6bca3f0bccd3f99ea6fa1316db7406715c220b88ddfdbc7abc7c20f66ae4b608151757aed0359e467cb17d277b4b619109a9",
+          "sha256": "eec1af00afe0f739b0f55bdfd7135ad983108ad9b80c699be2f44cb86f56ad43",
+          "sha1": "981c6f4c17221cc93ace49f18b6f20ae7e8663cd",
+          "md5": "441eb0a7849f3397783cefa49e7cf216"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-expression",
+    "version": "5.3.9-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "saqtyhakmnfmdpzp4gyqeqfomy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.9-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-expression-5.3.9-SNAPSHOT.jar",
+          "url": "spring-expression-5.3.9-SNAPSHOT.jar",
+          "size": 282602,
+          "sha512": "b7e1a2b875f0560055738a2e0c6c89dce4bdc30064a7c0a2aef5aff949d77e1ad19beac617aec53189f2d8731d43d7a702c05534ececc6f8d1739c5f146daa0a",
+          "sha256": "45c685706dc156bb048935713162eaf351e3af6f8e50c3c80f032d5542ed0793",
+          "sha1": "245a94edaf82d2a30477bdd1e3ee3fac55212f4a",
+          "md5": "4784d8afb59f1ed805a4063a664c927b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.9-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-expression-5.3.9-SNAPSHOT.jar",
+          "url": "spring-expression-5.3.9-SNAPSHOT.jar",
+          "size": 282602,
+          "sha512": "b7e1a2b875f0560055738a2e0c6c89dce4bdc30064a7c0a2aef5aff949d77e1ad19beac617aec53189f2d8731d43d7a702c05534ececc6f8d1739c5f146daa0a",
+          "sha256": "45c685706dc156bb048935713162eaf351e3af6f8e50c3c80f032d5542ed0793",
+          "sha1": "245a94edaf82d2a30477bdd1e3ee3fac55212f4a",
+          "md5": "4784d8afb59f1ed805a4063a664c927b"
+        }
+      ]
+    }
+  ]
+}
